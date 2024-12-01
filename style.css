@@ -1,0 +1,137 @@
+/* General Reset */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f9f9f9;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: linear-gradient(to right, #6A11CB, #2575FC);
+    color: white;
+  }
+  
+  .header .logo img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav ul li .btn-primary {
+    padding: 10px 20px;
+    background: #FF6F61;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s ease;
+  }
+  
+  .nav ul li .btn-primary:hover {
+    background: #FF8568;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to bottom, #2575FC, #6A11CB);
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero .cta-btn {
+    background: #FF6F61;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+  }
+  
+  .hero .cta-btn:hover {
+    background: #FF8568;
+    transform: scale(1.1);
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 50px 10%;
+  }
+  
+  .features h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .service-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    background: #6A11CB;
+    color: white;
+    padding: 50px 10%;
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial {
+    margin: 15px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    font-style: italic;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+  }
+  
